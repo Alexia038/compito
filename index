@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poezii by Mihai Eminescu</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        .book-title {
+            font-weight: bold;
+            font-size: 28px;
+            margin: 10px 0;
+        }
+        .author-name {
+            text-decoration: underline;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .alternate-title {
+            font-style: italic;
+            font-size: 18px;
+            color: #ecf0f1;
+        }
+        .book-cover-placeholder {
+            border: 3px solid #34495e;
+            width: 200px;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto;
+            background-color: #ecf0f1;
+            font-size: 18px;
+            color: #7f8c8d;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .book-cover-placeholder:hover {
+            background-color: #bdc3c7;
+        }
+        .paragraph1 {
+            background-color: #e8f4f8;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        .paragraph2 {
+            background-color: #fff4e6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        .quote {
+            color: #c0392b;
+            font-style: italic;
+            font-size: 18px;
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            border-left: 4px solid #c0392b;
+        }
+        .discussion-section {
+            background-color: #ecf0f1;
+            padding: 30px;
+            margin-top: 40px;
+            border-radius: 8px;
+        }
+        .discussion-section h2 {
+            color: #2c3e50;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            border: 2px solid #34495e;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .submit-btn {
+            background-color: #27ae60;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #229954;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mihai Eminescu - Literary Collection</h1>
+        <div class="book-title">Poezii</div>
+        <div class="author-name">Mihai Eminescu</div>
+        <div class="alternate-title">Poems</div>
+    </header>
+
+    <a href="https://en.wikipedia.org/wiki/Mihai_Eminescu">
+    <img src="mihaie.jpg" alt="Poezii book cover by Mihai Eminescu" width="200" height="300" style="border: 3px solid #34495e; border-radius: 8px;">
+</a>
+
+    <div class="paragraph1">
+        <h2>About the Collection</h2>
+        <p>Poezii is a masterpiece of Romanian literature, showcasing the profound works of Mihai Eminescu, one of the greatest poets of the 19th century. This collection contains some of his most celebrated poems, blending romantic idealism with philosophical depth. Eminescu's verses explore themes of love, nature, destiny, and the human condition, creating a rich tapestry of emotional and intellectual expression.</p>
+    </div>
+
+    <div class="quote">
+        "I want to be a flame, and I feel I will be one soon. And I want you to be that cool breeze that would come when I've become that flame."<br>— Mihai Eminescu
+    </div>
+
+    <div class="paragraph2">
+        <h2>Featured Poems</h2>
+        <p>Among the notable works in this collection is <a href="https://en.wikipedia.org/wiki/Luceaf%C4%83rul" target="_blank">Luceafărul</a> (The Morning Star), an epic poem that stands as one of Eminescu's most ambitious creations. This poem exemplifies his ability to weave together mythology, philosophy, and personal longing. Other significant works explore the beauty of nature, the pain of loss, and the eternal search for meaning in human existence.</p>
+    </div>
+
+    <div class="discussion-section">
+        <h2>Discussion & Comments</h2>
+        <p>Share your thoughts on Eminescu's poems. What passages resonate with you? How do his themes connect to your own experience?</p>
+        <textarea placeholder="Write your comment here..."></textarea>
+        <button class="submit-btn">Submit Comment</button>
+    </div>
+</body>
+</html>
